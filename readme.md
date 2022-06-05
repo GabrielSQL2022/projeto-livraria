@@ -1,16 +1,16 @@
 ## INTRODUÇÃO
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
-Este projeto tem a finalidade de demonstrar o processo de criação de um banco de dados, iniciando pela compreensão da regra de negócio do cliente
-a partir de uma entrevista, passando pela criação do Diagrama Entidade-Relacionamento até a criação e manutenção do Banco de Dados.
+Este projeto tem a finalidade de demonstrar o processo de criação de um banco de dados, iniciando pela Análise de Requisitos e passando 
+pela passando pela criação dos modelos Conceitual, Lógico e Físico.
 
 Os assuntos abordados neste projeto serão sobre uma livraria que vende apenas livros físicos, mas pelo fato de ser um projeto contínuo e pensado
 no mundo real, naturalmente a livraria passará por mudanças e melhorias, como qualquer empresa, então a ideia é que com o tempo seja criado um
-Café anexo à livraria esta mudança terá impácto direto no banco de dados já criado e em funcionamento da livraria.
+Café anexo à livraria e esta mudança terá impácto direto no banco de dados já criado e em funcionamento da livraria.
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
-## CAPÍTULO UM
+## ANÁLISE DE REQUISITOS
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
 A primeira e mais importante etapa para a criação de um banco de dados 
