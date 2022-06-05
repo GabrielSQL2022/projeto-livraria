@@ -5,6 +5,7 @@ Este projeto tem a finalidade de demonstrar o processo de criação de um banco 
 a partir de uma entrevista, pela criação do Diagrama Entidade-Relacionamento e do Banco de Dados.
 
 Todas as etapas destes processos serão mostradas em detalhes e com exemplos reais.
+<hr size="100"> <!-- LINHA HORIZONTAL -->
 
 ### Markdown
 
