@@ -5,8 +5,8 @@ Este projeto tem a finalidade de demonstrar o processo de criação de um banco 
 pela passando pela criação dos modelos Conceitual, Lógico e Físico.
 
 Os assuntos abordados neste projeto serão sobre uma livraria que vende apenas livros físicos, mas pelo fato de ser um projeto contínuo e pensado
-no mundo real, naturalmente a livraria passará por mudanças e melhorias, como qualquer empresa, então a ideia é que com o tempo seja criado um
-Café anexo à livraria e esta mudança terá impácto direto no banco de dados já criado e em funcionamento da livraria.
+no mundo real, naturalmente a livraria passará por mudanças e melhorias, como qualquer empresa. A ideia é que com o tempo seja criado um
+Café anexo e que essa mudança tenha impacto direto no banco de dados já criado e em funcionamento da livraria.
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
