@@ -1,5 +1,5 @@
 ## INTRODUÇÃO
-<hr size="40" width="50%> <!-- LINHA HORIZONTAL -->
+<hr size="40" width="50%"> <!-- LINHA HORIZONTAL -->
 
 Este projeto tem a finalidade de demonstrar o processo de criação de um banco de dados, iniciando pela compreensão da regra de negócio do cliente
 a partir de uma entrevista, pela criação do Diagrama Entidade-Relacionamento e do Banco de Dados.
