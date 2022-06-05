@@ -1,5 +1,4 @@
 ## INTRODUÇÃO
-<hr size="100"> <!-- LINHA HORIZONTAL -->
 
 Este projeto tem a finalidade de demonstrar o processo de criação de um banco de dados, iniciando pela Análise de Requisitos e passando 
 pela passando pela criação dos modelos Conceitual, Lógico e Físico.
@@ -11,7 +10,6 @@ Café anexo e que essa mudança tenha impacto direto no banco de dados já criad
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
 ## ANÁLISE DE REQUISITOS
-<hr size="100"> <!-- LINHA HORIZONTAL -->
 
 A primeira e mais importante etapa para a criação de um banco de dados é a Análise de Requisitos...
 
