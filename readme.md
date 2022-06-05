@@ -13,13 +13,14 @@ Café anexo e que essa mudança tenha impacto direto no banco de dados já criad
 ## ANÁLISE DE REQUISITOS
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
-A primeira e mais importante etapa para a criação de um banco de dados 
+A primeira e mais importante etapa para a criação de um banco de dados é a Análise de Requisitos...
 
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
 <!-- BOX DE CÓDIGOS -->
 
+<!-- 
 ```markdown 
 Syntax highlighted code block
 
@@ -37,5 +38,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+--> 
 
 
