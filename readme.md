@@ -33,19 +33,19 @@ O que seriam dos setores sem os colaboradores, então serão necessários alguns
 
 - **Dois almoxarifes**;
 - **Dois assistentes financeiros**;
-- **Três vendedores**;
+- **Três vendedores**.
 
 Agora a Universo dos Livros precisa fechar parcerias com boas editoras, mas por ser uma pequena livraria apenas o fornecedor **Read Book** será suficiente para garantir ótimos livros das editoras **Império** e **New Bark**.
 
-Com toda a documentação necessária para a abertura da livraria, organização dos setores, colaboradores e editoras, chegou o momento de detalhar e documentar cada uma destas informações para melhor compreensão antes da criação do Modelo Conceitual.
+Com toda a documentação pronta, organização dos setores, colaboradores e editoras, chegou o momento de documentar cada uma destas informações para melhor compreensão antes da criação do Modelo Conceitual.
 
 <center>
-  <img src="https://uploaddeimagens.com.br/images/003/900/657/original/Setores_-_An%C3%A1lise_de_Requisitos.png?1654909884" alt="Setores">
-  <img src="https://uploaddeimagens.com.br/images/003/900/659/original/Colaboradores_-_An%C3%A1lise_de_Requisitos.png?1654910061" alt="Colaboradores">
-  <img src="https://uploaddeimagens.com.br/images/003/900/660/original/Editoras_-_An%C3%A1lise_de_Requisitos.png?1654910587" alt="Editoras">
+  <img src="https://i.ibb.co/c34LdL2/Setores-An-lise-de-Requisitos.png" alt="Setores">
+  <img src="https://i.ibb.co/JFZCLHJ/Colaboradores-An-lise-de-Requisitos.png" alt="Colaboradores">
+  <img src="https://i.ibb.co/m4Q9S67/Editoras-An-lise-de-Requisitos.png" alt="Editoras">
 </center>
 
-
+Também foram definidos como serão registrados os **Livros**, **Departamento**, **Categorias**, **Autores**, **Clientes**, **Vendas** e **DANFE's**.
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
