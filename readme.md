@@ -39,7 +39,11 @@ Agora a Universo dos Livros precisa fechar parcerias com boas editoras, mas por 
 
 Com toda a documentação necessária para a abertura da livraria, organização dos setores, colaboradores e editoras, chegou o momento de detalhar e documentar cada uma destas informações para melhor compreensão antes da criação do Modelo Conceitual.
 
-![Setores](https://drive.google.com/file/d/10x9tW7Ecb5BDjhqlOTamcvhEOBh93jX2/view?usp=sharing)
+<center>
+  <img src = "https://uploaddeimagens.com.br/images/003/900/657/original/Setores_-_An%C3%A1lise_de_Requisitos.png?1654909884" alt="Setores">
+</center>
+
+![Colaboradores](https://uploaddeimagens.com.br/images/003/900/659/original/Colaboradores_-_An%C3%A1lise_de_Requisitos.png?1654910061)
 
 
 
