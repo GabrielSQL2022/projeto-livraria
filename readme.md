@@ -47,6 +47,8 @@ Com toda a documentação pronta, organização dos setores, colaboradores e edi
 
 Também foram definidos como serão registrados os **Livros**, **Departamento**, **Categorias**, **Autores**, **Clientes**, **Vendas** e **DANFE's**.
 
+**_Atualizado em 10/06/2022_**
+
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
 <!-- BOX DE CÓDIGOS -->
