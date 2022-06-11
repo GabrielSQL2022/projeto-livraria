@@ -1,5 +1,7 @@
-<head><title>Universo dos Livros</title></head>
-<link rel="icon" type="imagem/png" href="https://img.icons8.com/material/24/undefined/books--v1.png"/>
+<head>
+  <title>Universo dos Livros</title>
+  <link rel="shortcut icon" href="https://img.icons8.com/material/24/undefined/books--v1.png">
+</head>
 
 ## INTRODUÇÃO
 
