@@ -23,6 +23,25 @@ Este termo nada mais é que o ID de um livro e outras publicações segundo o au
 caracteres (ISBN-10), mas foi necessário a criação do ISBN-13, com treze caracteres, devido ao grande volume de publicações em todo o mundo,
 neste caso com a característica de ter o prefixo 978.
 
+Esta livraria será uma empresa de pequeno porte, mesmo assim será bem organizada, então ela terá os seguintes setores:
+
+- **Almoxarifado**: controle do estoque e solicitação de compra de livros;
+- **Financeiro**: recebimento das Notas Fiscais Eletrônicas de compras, pagamentos dos salários dos colaboradores e de contas gerais da empresa;
+- **Vendas**: tirar dúvidas dos clientes e realizar o fechamento de pedidos nos caixas;
+
+O que seriam dos setores sem os colaboradores, então serão necessários alguns profissionais:
+
+- **Dois almoxarifes**;
+- **Dois assistentes financeiros**;
+- **Três vendedores**;
+
+Agora a Universo dos Livros precisa fechar parcerias com boas editoras, mas por ser uma pequena livraria apenas o fornecedor **Read Book** será suficiente para garantir ótimos livros das editoras **Império** e **New Bark**.
+
+Com toda a documentação necessária para a abertura da livraria, organização dos setores, colaboradores e editoras, chegou o momento de detalhar e documentar cada uma destas informações para melhor compreensão antes da criação do Modelo Conceitual.
+
+![Setores](https://drive.google.com/file/d/10x9tW7Ecb5BDjhqlOTamcvhEOBh93jX2/view?usp=sharing)
+
+
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
