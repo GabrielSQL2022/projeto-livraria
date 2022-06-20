@@ -45,9 +45,9 @@ Agora a Universo dos Livros precisa fechar parcerias com boas editoras, mas por 
 Com toda a documentação pronta, organização dos setores, colaboradores e editoras, chegou o momento de documentar cada uma destas informações para melhor compreensão antes da criação do Modelo Conceitual.
 
 <center>
-  <img src="https://i.ibb.co/c34LdL2/Setores-An-lise-de-Requisitos.png" alt="Setores">
-  <img src="https://i.ibb.co/JFZCLHJ/Colaboradores-An-lise-de-Requisitos.png" alt="Colaboradores">
-  <img src="https://i.ibb.co/m4Q9S67/Editoras-An-lise-de-Requisitos.png" alt="Editoras">
+  <img src="https://i.ibb.co/b2Q2s1M/Setores.jpg" alt="Setores">
+  <img src="https://i.ibb.co/34bpcL1/Colaboradores.jpg" alt="Colaboradores">
+  <img src="https://i.ibb.co/rHbPWjd/Editoras.jpg" alt="Editoras">
 </center>
 
 Também foram definidos como serão registrados os **Livros**, **Departamento**, **Categorias**, **Autores**, **Clientes**, **Vendas** e **DANFE's**.
