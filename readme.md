@@ -1,8 +1,3 @@
-<head>
-  <title>Universo dos Livros</title>
-  <link rel="shortcut icon" href="https://img.icons8.com/material/24/undefined/books--v1.png">
-</head>
-
 ## INTRODUÇÃO
 
 Este projeto tem a finalidade de demonstrar o processo de criação de um banco de dados, iniciando pela Análise de Requisitos e passando
