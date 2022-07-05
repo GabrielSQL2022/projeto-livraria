@@ -23,13 +23,13 @@ Este termo nada mais é que o ID de um livro e outras publicações segundo o au
 caracteres (ISBN-10), mas foi necessário a criação do ISBN-13, com treze caracteres, devido ao grande volume de publicações em todo o mundo,
 neste caso com a característica de ter o prefixo 978.
 
-Esta livraria será uma empresa de pequeno porte, mesmo assim será bem organizada, então ela terá os seguintes setores:
+Esta livraria será uma empresa de pequeno porte, então ela terá os seguintes setores:
 
 - **Almoxarifado**: controle do estoque e solicitação de compra de livros;
 - **Financeiro**: recebimento das Notas Fiscais Eletrônicas de compras, pagamentos dos salários dos colaboradores e de contas gerais da empresa;
 - **Vendas**: tirar dúvidas dos clientes e realizar o fechamento de pedidos nos caixas;
 
-O que seriam dos setores sem os colaboradores, então serão necessários alguns profissionais:
+Para estes setores serão necessários os seguintes profissionais:
 
 - **Dois almoxarifes**;
 - **Dois assistentes financeiros**;
