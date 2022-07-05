@@ -69,9 +69,13 @@ Entendo a regra de negócio de uma livraria de pequeno porte e a necessidade do 
 **- VENDAS:**
   - Identificação da Venda, Data da Venda, Valor Total, Quantidade de Livros, Identificação do Livro, Identificação da DANFE, Identificação do Colaborador e Identificação do Cliente.
 
-Também foram definidos como serão registrados os **Livros**, **Departamento**, **Categorias**, **Autores**, **Clientes**, **Vendas** e **DANFE's**.
+Com estas informações em mãos, o próximo passo é a criação do Modelo Conceitual.
 
-**_Atualizado em 10/06/2022_**
+<hr size="100"> <!-- LINHA HORIZONTAL -->
+
+## MODELO CONCEITUAL
+
+**_Atualizado em 05/07/2022_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
