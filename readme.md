@@ -37,13 +37,37 @@ O que seriam dos setores sem os colaboradores, então serão necessários alguns
 
 Agora a Universo dos Livros precisa fechar parcerias com boas editoras, mas por ser uma pequena livraria apenas o fornecedor **Read Book** será suficiente para garantir ótimos livros das editoras **Império** e **New Bark**.
 
-Com toda a documentação pronta, organização dos setores, colaboradores e editoras, chegou o momento de documentar cada uma destas informações para melhor compreensão antes da criação do Modelo Conceitual.
+Com toda a documentação pronta, foi criado a documentação de cada uma destas informações para melhor compreensão antes da criação do Modelo Conceitual.
 
-<center>
-  <img src="https://i.ibb.co/b2Q2s1M/Setores.jpg" alt="Setores">
-  <img src="https://i.ibb.co/34bpcL1/Colaboradores.jpg" alt="Colaboradores">
-  <img src="https://i.ibb.co/rHbPWjd/Editoras.jpg" alt="Editoras">
-</center>
+**- LIVROS:**
+  - Identificação do Livro, Nome, Editora, Autor, Edição, Categoria, Resumo, Idiomas, Data da Publicação, Número de Páginas, Dimensões, ISBN-10, ISBN-13, Quantidade, Tipo da Capa, Quantidade em Estoque, Preço e Código de Barras.
+
+**- COLABORADORES:**
+  - Identificação do Colaborador, Nome, Cargo, Sexo, Endereço, Bairro, Cidade, Data de Nascimento, Data de Admissão, Salário e Observação.
+
+**- SETORES:**
+  - Identificação do Setor, Nome do Setor, Quantidade de Caloboradores e Identificação do Colaborador.
+
+**- EDITORAS:**
+  - Identificação da Editora, Razão Social, Nome Fantasia, CNPJ, Inscrição Estadual, Endereço, Bairro, Cidade, E-mail, Dados Bancários e Identificação do Livro.
+
+**- AUTORES:**
+  - Identificação do Autor, Nome, Registro, Sexo, País, Data de Nascimento, Identificação do Livro e Identificação da Editora.
+
+**- CATEGORIAS:**
+  - Identificação da Categoria, Categoria e Eidentificação do Livro.
+
+**- DEPARTAMENTOS:**
+  - Identificação do Departamento, Nome e Identificação da Categoria.
+
+**- CLIENTES:**
+  - Identificação do Cliente, Nome, CPF, Endereço, Bairro, Cidade, Data de Nascimento e E-mail.
+
+**- DANFE:**
+  - Identificação da DANFE, Número NFe, Série NFe, Data de Emissão, Valor Total, ChaveEletrônica, Protocolo de Autorização e Identificação do Livro.
+
+**- VENDAS:**
+  - Identificação da Venda, Data da Venda, Valor Total, Quantidade de Livros, Identificação do Livro, Identificação da DANFE, Identificação do Colaborador e Identificação do Cliente.
 
 Também foram definidos como serão registrados os **Livros**, **Departamento**, **Categorias**, **Autores**, **Clientes**, **Vendas** e **DANFE's**.
 
