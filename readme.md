@@ -35,9 +35,9 @@ Para estes setores serão necessários os seguintes profissionais:
 - **Dois assistentes financeiros**;
 - **Três vendedores**.
 
-Agora a Universo dos Livros precisa fechar parcerias com boas editoras, mas por ser uma pequena livraria apenas o fornecedor **Read Book** será suficiente para garantir ótimos livros das editoras **Império** e **New Bark**.
+Por ser uma pequena livraria apenas um fornecedor será suficiente, garantindo livros das editoras **Império** e **New Bark**.
 
-Com toda a documentação pronta, foi criado a documentação de cada uma destas informações para melhor compreensão antes da criação do Modelo Conceitual.
+Entendo a regra de negócio de uma livraria de pequeno porte e a necessidade do cliente, foram documentados as informações necessárias, detalhadas abaixo:
 
 **- LIVROS:**
   - Identificação do Livro, Nome, Editora, Autor, Edição, Categoria, Resumo, Idiomas, Data da Publicação, Número de Páginas, Dimensões, ISBN-10, ISBN-13, Quantidade, Tipo da Capa, Quantidade em Estoque, Preço e Código de Barras.
