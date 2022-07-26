@@ -57,9 +57,6 @@ Entendo a regra de negócio de uma livraria de pequeno porte e a necessidade do 
 **- CATEGORIAS:**
   - Identificação da Categoria, Categoria e Eidentificação do Livro.
 
-**- DEPARTAMENTOS:**
-  - Identificação do Departamento, Nome e Identificação da Categoria.
-
 **- CLIENTES:**
   - Identificação do Cliente, Nome, CPF, Endereço, Bairro, Cidade, Data de Nascimento e E-mail.
 
