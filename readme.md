@@ -72,7 +72,18 @@ Com estas informações em mãos, o próximo passo é a criação do Modelo Conc
 
 ## MODELO CONCEITUAL
 
-**_Atualizado em 05/07/2022_**
+O Modelo Conceitual é baseado no Modelo Entidade-Relacionamento. É a fase onde são definidos as entidades, atributos das entidadades e como cada uma se relaciona.
+A criação deste modelo serve para modelar e criar os bancos de dados relacionais no sentido lógico e de negócio, primordial para elucidar o entendimento da regra de negócio e a criação do banco de dados.
+
+Abaixo o Modelo Entidade-Relacionamento:
+
+<img src="https://i.ibb.co/sm6KsKg/Modelo-Conceitual.jpg">
+
+<hr size="100"> <!-- LINHA HORIZONTAL -->
+
+## MODELO LÓGICO
+
+**_Atualizado em 26/07/2022_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
