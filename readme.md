@@ -42,12 +42,6 @@ Entendo a regra de negócio de uma livraria de pequeno porte e a necessidade do 
 **- LIVROS:**
   - Identificação do Livro, Nome, Editora, Autor, Edição, Categoria, Resumo, Idiomas, Data da Publicação, Número de Páginas, Dimensões, ISBN-10, ISBN-13, Quantidade, Tipo da Capa, Quantidade em Estoque, Preço e Código de Barras.
 
-**- COLABORADORES:**
-  - Identificação do Colaborador, Nome, Cargo, Sexo, Endereço, Bairro, Cidade, Data de Nascimento, Data de Admissão, Salário e Observação.
-
-**- SETORES:**
-  - Identificação do Setor, Nome do Setor, Quantidade de Caloboradores e Identificação do Colaborador.
-
 **- EDITORAS:**
   - Identificação da Editora, Razão Social, Nome Fantasia, CNPJ, Inscrição Estadual, Endereço, Bairro, Cidade, E-mail, Dados Bancários e Identificação do Livro.
 
@@ -56,6 +50,12 @@ Entendo a regra de negócio de uma livraria de pequeno porte e a necessidade do 
 
 **- CATEGORIAS:**
   - Identificação da Categoria, Categoria e Eidentificação do Livro.
+
+**- COLABORADORES:**
+  - Identificação do Colaborador, Nome, Cargo, Sexo, Endereço, Bairro, Cidade, Data de Nascimento, Data de Admissão, Salário e Observação.
+
+**- SETORES:**
+  - Identificação do Setor, Nome do Setor, Quantidade de Caloboradores e Identificação do Colaborador.
 
 **- CLIENTES:**
   - Identificação do Cliente, Nome, CPF, Endereço, Bairro, Cidade, Data de Nascimento e E-mail.
