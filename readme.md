@@ -83,7 +83,18 @@ Abaixo o Modelo Entidade-Relacionamento:
 
 ## MODELO LÓGICO
 
-**_Atualizado em 26/07/2022_**
+O Modelo Lógico tem o objetivo de representar as estruturas que irão armazenar os dados no Banco de Dados. Nesta etapa são definidos as entidades e atributos, bem como 
+os registros, número de campos e seus respectivos tamanhos, além das Chaves Primárias e Chaves Estrangeiras.
+
+No Modelo Lógico também é definido qual SGBD será utilizado, neste projeto utilizarei o PLSQL.
+
+<img src="https://i.ibb.co/tzyJLZM/Modelo-L-gico.jpg">
+
+<hr size="100"> <!-- LINHA HORIZONTAL -->
+
+## MODELO FÍSICO
+
+**_Atualizado em 03/08/2022_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
