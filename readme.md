@@ -75,6 +75,8 @@ Com estas informações em mãos, o próximo passo é a criação do Modelo Conc
 O Modelo Conceitual é baseado no Modelo Entidade-Relacionamento. É a fase onde são definidos as entidades, atributos das entidadades e como cada uma se relaciona.
 A criação deste modelo serve para modelar e criar os bancos de dados relacionais no sentido lógico e de negócio, primordial para elucidar o entendimento da regra de negócio e a criação do banco de dados.
 
+Nesta etapa também são definidos as cardinalidades entre as tabelas, para acessar a documentação da cardinalidade clique [aqui](https://github.com/GabrielSQL2022/projeto-livraria/blob/main/Cardinalidade.pdf).
+
 Abaixo o Modelo Entidade-Relacionamento:
 
 <img src="https://i.ibb.co/sm6KsKg/Modelo-Conceitual.jpg">
