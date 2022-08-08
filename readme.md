@@ -96,7 +96,23 @@ No Modelo Lógico também é definido qual SGBD será utilizado, neste projeto u
 
 ## MODELO FÍSICO
 
-**_Atualizado em 03/08/2022_**
+O Modelo Físico consiste no design do banco de dados com base nos requisitos apurados durante a criação dos Modelo Lógico. Nesta etapa são representadas as tabelas, colunas, tipos de dados, visualizações, restrições, índices, procedimentos e outros procedimentos estruturais do banco de dados.
+
+Também é definido o SGBD (Sistema de Gerenciamento de Banco de Dados) que será utilizado no projeto. Os SGBD's são os softwares responsáveis por administrar o banco de dados. 
+Os mais utilizados atualmente são, respectivamente: Oracle, MySQL, Microsoft SQL Server e PostgreSQL.
+
+_Fonte: https://db-engines.com/en/ranking_
+
+Neste projeto será utilizado o SGBD PL/SQL Developer da Oracle.
+
+### Criação da Tablespace;
+
+```
+
+
+```
+
+**_Atualizado em 08/08/2022_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
