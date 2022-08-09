@@ -79,7 +79,7 @@ Nesta etapa também são definidos as cardinalidades entre as tabelas, para aces
 
 Abaixo o Modelo Entidade-Relacionamento:
 
-<img src="https://i.ibb.co/sm6KsKg/Modelo-Conceitual.jpg">
+<img src="https://i.ibb.co/92jn3Y7/Modelo-Conceitual.jpg">
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
@@ -90,7 +90,7 @@ os registros, número de campos e seus respectivos tamanhos, além das Chaves Pr
 
 No Modelo Lógico também é definido qual SGBD será utilizado, neste projeto utilizarei o PLSQL.
 
-<img src="https://i.ibb.co/tzyJLZM/Modelo-L-gico.jpg">
+<img src="https://i.ibb.co/pyGcjgh/Modelo-L-gico.jpg">
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
