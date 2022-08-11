@@ -90,7 +90,7 @@ os registros, número de campos e seus respectivos tamanhos, além das Chaves Pr
 
 No Modelo Lógico também é definido qual SGBD será utilizado, neste projeto utilizarei o PLSQL.
 
-<img src="https://i.ibb.co/pyGcjgh/Modelo-L-gico.jpg">
+<img src="https://i.ibb.co/wJ5mFYP/Screenshot-1.jpg">
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
