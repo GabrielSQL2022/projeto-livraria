@@ -251,7 +251,7 @@ CREATE TABLE CATEGORIA
 TABLESPACE TBS_PROJ_LIVRARIA;
 ```
 
-- ### Aplicando as Restrições de Integridade de Chaves Estrangeiras
+- ### Aplicando as Restrições de Integridade de Chaves Estrangeiras;
 
 ```
 ALTER TABLE SETORES
