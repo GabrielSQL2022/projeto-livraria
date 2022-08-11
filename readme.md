@@ -96,16 +96,19 @@ No Modelo Lógico também é definido qual SGBD será utilizado, neste projeto u
 
 ## MODELO FÍSICO
 
-O Modelo Físico consiste no design do banco de dados com base nos requisitos apurados durante a criação dos Modelo Lógico. Nesta etapa são representadas as tabelas, colunas, tipos de dados, visualizações, restrições, índices, procedimentos e outros procedimentos estruturais do banco de dados.
+O Modelo Físico consiste no design do banco de dados com base nos requisitos apurados durante a criação do Modelo Lógico. Nesta etapa são representadas as tabelas, colunas, tipos de dados, visualizações, restrições, índices, procedimentos e outros procedimentos estruturais do banco de dados.
 
 Também é definido o SGBD (Sistema de Gerenciamento de Banco de Dados) que será utilizado no projeto. Os SGBD's são os softwares responsáveis por administrar o banco de dados. 
 Os mais utilizados atualmente são, respectivamente: Oracle, MySQL, Microsoft SQL Server e PostgreSQL.
 
 _Fonte: https://db-engines.com/en/ranking_
 
-Neste projeto será utilizado o SGBD PL/SQL Developer da Oracle.
+Neste projeto será utilizado o PL/SQL Developer da Oracle.
 
 - ### Criação da Tablespace;
+
+A tablespace consiste, resumidamente, em uma alocação de espaço em um banco de dados para armazenamento dos objetos, como tabelas, índices, views, funções, procedures, usuários e outros.
+Neste projeto a tablespace foi definida com tamanho de 250M, podendo ser estendida a cada 10M limitado até 300M. 
 
 ```
 CREATE TABLESPACE TBS_PROJ_LIVRARIA
@@ -117,6 +120,9 @@ SEGMENT SPACE MANAGEMENT AUTO;
 ```
 
 - ### Criação das Tabelas;
+
+Nesta etapa foram criadas as tabelas com seus respectivos campos, definindo o tipo, tamanho e se podem ou não ficar nulos.
+Também foram definidos as constraints (restrições de integridade) com a chave primária de cada tabela. 
 
 ```
 CREATE TABLE LIVROS
@@ -251,7 +257,12 @@ CREATE TABLE CATEGORIA
 TABLESPACE TBS_PROJ_LIVRARIA;
 ```
 
-- ### Aplicando as Restrições de Integridade de Chaves Estrangeiras;
+- ### Criando as Chaves Estrangeiras;
+
+Com as tabelas criadas é necessário criar as relações entre elas, como a relação que a tebela **SETORES** possui com a **COLABORADORES**.
+
+Para isso são criados constraints (restrições de integridade) relacionando o campo de uma tabela com outro campo de outra tabela, criando assim
+o relaciomento entre duas tabelas distintas. Este relacionamento é chamado de chave estrangeira (foreign key).
 
 ```
 ALTER TABLE SETORES
