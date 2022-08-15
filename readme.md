@@ -391,11 +391,15 @@ GRANT SELECT ON EDITORAS TO FUNCIONARIOS;
 GRANT SELECT ON CATEGORIA TO FUNCIONARIOS;
 ```
 **Concedendo privilégio para criação de view ao usuário Proprietária**:
+
 ```
 GRANT CREATE VIEW TO PROPRIETARIA 
 ```
 
-**_Atualizado em 11/08/2022_**
+- ### Inserindo dados nas tabelas;
+
+
+**_Atualizado em 15/08/2022_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
