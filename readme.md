@@ -316,6 +316,85 @@ FOREIGN KEY (ID_CATEGORIA)
 REFERENCES LIVROS (ID_LIVRO)
 ```
 
+- ### Criação e Privilégios dos Usuários do Banco de Dados;
+
+Neste projeto serão criados dois usuários para acesso ao banco de dados, um com mais e outro com menos privilégios, porém ambos com acessos relativamente básicos.
+
+- **Criação:**
+
+Serão criados os usuários Proprietária e Funcionários, com as senhas LIVRARIA2022 e SELECT2022, respectivamente, ambos na tablespace TBS_PROJ_LIVRARIA.
+
+```
+CREATE USER PROPRIETARIA     
+IDENTIFIED BY LIVRARIA2022
+DEFAULT TABLESPACE TBS_PROJ_LIVRARIA
+
+CREATE USER FUNCIONARIOS
+IDENTIFIED BY SELECT2022
+DEFAULT TABLESPACE TBS_PROJ_LIVRARIA
+```
+
+- **Privilégios:**
+
+Os usuários terão os seguintes privilégios:
+
+- **PROPRIETÁRIA**: 
+  - Privilégios de Objeto: SELECT, INSERT, UPDATE e DELETE.
+  - Privilégio de Sistema: CREATE VIEW.
+
+- **FUNCIONÁRIOS**: 
+  - Privilégio de Objeto: SELECT.
+
+Para conceder privilégios de objeto deve-se informar quais tabelas o usuário em questão poderá acessar. Em uma base com muitas tabelas seria uma rotina trabalhosa,
+porém existem meios de conceder privilégios em várias tabelas ao mesmo tempo. 
+
+Neste projeto utilizei um script para gerar os comandos de privilégios prontos para serem executados, uma vez que são poucas tabelas. Também prefiro desta forma por
+questão de segurança.
+
+**Gerando Scripts de Privilégios**:
+
+```
+SELECT 
+'GRANT SELECT, INSERT, UPDATE, DELETE ON ' || X.TABLE_NAME || ' TO PROPRIETARIA;'
+FROM DBA_TABLES X
+WHERE X.OWNER = USER
+AND X.TABLESPACE_NAME = 'TBS_PROJ_LIVRARIA'
+ 
+SELECT 
+'GRANT SELECT ON ' || X.TABLE_NAME || ' TO FUNCIONARIOS;'
+FROM DBA_TABLES X
+WHERE X.OWNER = USER
+AND X.TABLESPACE_NAME = 'TBS_PROJ_LIVRARIA'
+```
+
+**Resultado**:
+
+```
+GRANT SELECT,INSERT, UPDATE, DELETE ON LIVROS TO PROPRIETARIA;
+GRANT SELECT,INSERT, UPDATE, DELETE ON COLABORADORES TO PROPRIETARIA;
+GRANT SELECT,INSERT, UPDATE, DELETE ON SETORES TO PROPRIETARIA;
+GRANT SELECT,INSERT, UPDATE, DELETE ON VENDAS TO PROPRIETARIA;
+GRANT SELECT,INSERT, UPDATE, DELETE ON DANFE TO PROPRIETARIA;
+GRANT SELECT,INSERT, UPDATE, DELETE ON CLIENTES TO PROPRIETARIA;
+GRANT SELECT,INSERT, UPDATE, DELETE ON AUTORES TO PROPRIETARIA;
+GRANT SELECT,INSERT, UPDATE, DELETE ON EDITORAS TO PROPRIETARIA;
+GRANT SELECT,INSERT, UPDATE, DELETE ON CATEGORIA TO PROPRIETARIA;
+
+GRANT SELECT ON LIVROS TO FUNCIONARIOS;
+GRANT SELECT ON COLABORADORES TO FUNCIONARIOS;
+GRANT SELECT ON SETORES TO FUNCIONARIOS;
+GRANT SELECT ON VENDAS TO FUNCIONARIOS;
+GRANT SELECT ON DANFE TO FUNCIONARIOS;
+GRANT SELECT ON CLIENTES TO FUNCIONARIOS;
+GRANT SELECT ON AUTORES TO FUNCIONARIOS;
+GRANT SELECT ON EDITORAS TO FUNCIONARIOS;
+GRANT SELECT ON CATEGORIA TO FUNCIONARIOS;
+```
+**Concedendo privilégio para criação de view ao usuário Proprietária**:
+```
+GRANT CREATE VIEW TO PROPRIETARIA 
+```
+
 **_Atualizado em 11/08/2022_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
