@@ -49,7 +49,7 @@ Entendo a regra de negócio de uma livraria de pequeno porte e a necessidade do 
   - Identificação do Autor, Nome, Registro, Sexo, País, Data de Nascimento, Identificação do Livro e Identificação da Editora.
 
 **- CATEGORIAS:**
-  - Identificação da Categoria, Categoria e Eidentificação do Livro.
+  - Identificação da Categoria, Categoria e identificação do Livro.
 
 **- COLABORADORES:**
   - Identificação do Colaborador, Nome, Cargo, Sexo, Endereço, Bairro, Cidade, Data de Nascimento, Data de Admissão, Salário e Observação.
@@ -61,7 +61,7 @@ Entendo a regra de negócio de uma livraria de pequeno porte e a necessidade do 
   - Identificação do Cliente, Nome, CPF, Endereço, Bairro, Cidade, Data de Nascimento e E-mail.
 
 **- DANFE:**
-  - Identificação da DANFE, Número NFe, Série NFe, Data de Emissão, Valor Total, ChaveEletrônica, Protocolo de Autorização e Identificação do Livro.
+  - Identificação da DANFE, Número NFe, Série NFe, Data de Emissão, Valor Total, Chave Eletrônica, Protocolo de Autorização e Identificação do Livro.
 
 **- VENDAS:**
   - Identificação da Venda, Data da Venda, Valor Total, Quantidade de Livros, Identificação do Livro, Identificação da DANFE, Identificação do Colaborador e Identificação do Cliente.
