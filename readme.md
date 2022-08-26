@@ -497,6 +497,33 @@ VALUES
 (107,'Vendas','3',1007);
 ```
 
+**Tabela Clientes**:
+
+```
+INSERT INTO CLIENTES
+(ID_CLIENTE,NOME,CPF,TELEFONE,ENDERECO,BAIRRO,CIDADE,DT_NASCIMENTO,EMAIL)
+VALUES
+(201,'Carlos Augusto Souza','50781709954','44 976452098','Rua Antonina, 45','Antonina','Londrina',
+ '01/08/1980','carlos.augusto@gmail.com');
+ 
+INSERT INTO CLIENTES
+(ID_CLIENTE,NOME,CPF,TELEFONE,ENDERECO,BAIRRO,CIDADE,DT_NASCIMENTO,EMAIL)
+VALUES
+(202,'Aline Oliveira Leite','74164246901','44 955671098','Avenida Bruno Cortez, 198','Gomes Luz','Niterói',
+ '22/09/1982','aline.leite@yahoo.com.br');
+ 
+INSERT INTO CLIENTES
+(ID_CLIENTE,NOME,CPF,TELEFONE,ENDERECO,BAIRRO,CIDADE,DT_NASCIMENTO,EMAIL)
+VALUES
+(203,'João Bento Misty','09867264940','21 987354671','Rua Dr Palmier, 443','Barreto','Niterói',
+ '26/12/1988','joao.bento88@gmail.com');
+
+INSERT INTO CLIENTES
+(ID_CLIENTE,NOME,CPF,TELEFONE,ENDERECO,BAIRRO,CIDADE,DT_NASCIMENTO,EMAIL)
+VALUES
+(204,'Leandro Araújo de Oliveira','68012109808','11 987347686','Rua das Oliveiras, 456','Santo Amaro','Barueri',
+ '05/07/1984','leandro.net1000@gmail.com');
+```
 
 **_Atualizado em 26/08/2022_**
 
