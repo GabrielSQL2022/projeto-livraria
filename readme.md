@@ -152,7 +152,7 @@ CREATE TABLE COLABORADORES
        CARGO VARCHAR2 (20) NOT NULL,
        SEXO CHAR (1),
        TELEFONE VARCHAR2 (15),
-       ENDERECO VARCHAR2 (20),
+       ENDERECO VARCHAR2 (100),
        BAIRRO VARCHAR2 (20),
        DT_NASCIMENTO DATE,
        DT_ADMISSAO DATE,
@@ -436,7 +436,29 @@ VALUES
  '20.8 x 14 x 2.8 cm','853251622X','978-8532516220',17,49.90,'9788532516220');
 ```
 
-**_Atualizado em 15/08/2022_**
+**Tabela Colaboradores**:
+
+```
+INSERT INTO COLABORADORES
+(ID_COLABORADOR,NOME,CARGO,SEXO,TELEFONE,ENDERECO,BAIRRO,DT_NASCIMENTO,DT_ADMISSAO,SALARIO,OBSERVACAO)
+VALUES
+(1001,'Bruno Franco da Silva','Almoxarife I','M','44 994562863','Rua Dr. Luiz Aguiar, 389 - Londrina','Barreto','12/06/1989',
+ '01/08/2022',2500.00,'Colaborador com espírito de equipe e ótimas ideias de melhorias futuras.');
+ 
+INSERT INTO COLABORADORES
+(ID_COLABORADOR,NOME,CARGO,SEXO,TELEFONE,ENDERECO,BAIRRO,DT_NASCIMENTO,DT_ADMISSAO,SALARIO,OBSERVACAO)
+VALUES
+(1002,'Roberta Gomes Almeida','Almoxarife II','F','44 987340092','Rua dos Alfeneiros, 100 - Londrina','Fonseca','03/12/1995',
+ '01/08/2022',3200.00,'Colaboradora com experiência prévia, perfil de liderança e mindset ágil.');
+ 
+INSERT INTO COLABORADORES
+(ID_COLABORADOR,NOME,CARGO,SEXO,TELEFONE,ENDERECO,BAIRRO,DT_NASCIMENTO,DT_ADMISSAO,SALARIO,OBSERVACAO)
+VALUES
+(1003,'Edna Castilho Bosco','Assis. Financeira I','F','44 976521090','Alameda Divaldo Franco, 820 - Londrina','Pendotiba',
+ '22/05/1985','15/07/2022',3554.50,'Colaboradora com muito conhecimento sobre planilhas e organização financeira.');
+```
+
+**_Atualizado em 26/08/2022_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
