@@ -398,6 +398,43 @@ GRANT CREATE VIEW TO PROPRIETARIA
 
 - ### Inserindo dados nas tabelas;
 
+Inicialmente não serão inseridos muitos registros nas tabelas, apenas o necessário para iniciar o projeto.
+
+Para esta parte não ficar muito extensa, serão mostrados algumas inserções, mas todos os dados inseridos podem ser conferidos [aqui](https://docs.google.com/document/d/1hRXiDUpo03jQtIHN2BLOHD36ndMdlQ2XNnJh7aWIL8k/edit?usp=sharing).
+
+**Tabela Livros**:
+
+```
+INSERT INTO LIVROS
+(ID_LIVRO,NOME,EDITORA,AUTOR,EDICAO,CATEGORIA,DT_PUBLICACAO,NR_PAGINAS,DIMENSOES,ISBN_10,ISBN_13,QUANTIDADE,PRECO,COD_BARRAS)
+VALUES
+(1000001,'Harry Potter e a Pedra Filosofal','Rocco','J.K. Rowling','1ª edição','Fantasia','07/04/2000',264,
+ '20.8 x 14 x 1.4 cm','8532511015','978-8532523051',15,24.90,'9788532523051');
+  
+INSERT INTO LIVROS
+(ID_LIVRO,NOME,EDITORA,AUTOR,EDICAO,CATEGORIA,DT_PUBLICACAO,NR_PAGINAS,DIMENSOES,ISBN_10,ISBN_13,QUANTIDADE,PRECO,COD_BARRAS)
+VALUES
+(1000002,'Harry Potter e a Câmara Secreta','Rocco','J.K. Rowling','1ª edição','Fantasia','15/08/2000',288,
+ '21 x 14 x 1.4 cm','853251166X','978-8532511669',13,36.42,'9788532511669');
+  
+INSERT INTO LIVROS
+(ID_LIVRO,NOME,EDITORA,AUTOR,EDICAO,CATEGORIA,DT_PUBLICACAO,NR_PAGINAS,DIMENSOES,ISBN_10,ISBN_13,QUANTIDADE,PRECO,COD_BARRAS)
+VALUES
+(1000003,'Harry Potter e o Prisioneiro de Azkaban','Rocco','J.K. Rowling','1ª edição','Fantasia','28/11/2000',348,
+ '20.8 x 13.6 x 1.6 cm','1781103704','978-1781103708',19,24.50,'9781781103708');
+ 
+INSERT INTO LIVROS
+(ID_LIVRO,NOME,EDITORA,AUTOR,EDICAO,CATEGORIA,DT_PUBLICACAO,NR_PAGINAS,DIMENSOES,ISBN_10,ISBN_13,QUANTIDADE,PRECO,COD_BARRAS)
+VALUES
+(1000004,'Harry Potter e o Cálice de Fogo','Rocco','J.K. Rowling','1ª edição','Fantasia','08/06/2001',584,
+ '20.8 x 14 x 2.4 cm','8532523080','978-8532512529',11,39.98,'9788532512529');
+ 
+INSERT INTO LIVROS
+(ID_LIVRO,NOME,EDITORA,AUTOR,EDICAO,CATEGORIA,DT_PUBLICACAO,NR_PAGINAS,DIMENSOES,ISBN_10,ISBN_13,QUANTIDADE,PRECO,COD_BARRAS)
+VALUES
+(1000005,'Harry Potter e a Ordem da Fenix','Rocco','J.K. Rowling','1ª edição','Fantasia','29/11/2003',704,
+ '20.8 x 14 x 2.8 cm','853251622X','978-8532516220',17,49.90,'9788532516220');
+```
 
 **_Atualizado em 15/08/2022_**
 
