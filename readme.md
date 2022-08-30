@@ -400,7 +400,7 @@ GRANT CREATE VIEW TO PROPRIETARIA
 
 Inicialmente não serão inseridos muitos registros nas tabelas, apenas o necessário para iniciar o projeto.
 
-Para esta parte não ficar muito extensa, serão mostrados algumas inserções, mas todos os dados inseridos podem ser conferidos [aqui](https://docs.google.com/document/d/1hRXiDUpo03jQtIHN2BLOHD36ndMdlQ2XNnJh7aWIL8k/edit?usp=sharing).
+Para esta parte não ficar muito extensa, serão mostrados apenas cinco inserções em cada tabela, mas todos os dados inseridos podem ser conferidos [aqui](https://drive.google.com/file/d/1CkrRohYuIMO_37ttlUexoc1NCYjfq6r3/view?usp=sharing).
 
 **Tabela Livros**:
 
@@ -456,6 +456,18 @@ INSERT INTO COLABORADORES
 VALUES
 (1003,'Edna Castilho Bosco','Assis. Financeira I','F','44 976521090','Alameda Divaldo Franco, 820 - Londrina','Pendotiba',
  '22/05/1985','15/07/2022',3554.50,'Colaboradora com muito conhecimento sobre planilhas e organização financeira.');
+ 
+INSERT INTO COLABORADORES
+(ID_COLABORADOR,NOME,CARGO,SEXO,TELEFONE,ENDERECO,BAIRRO,DT_NASCIMENTO,DT_ADMISSAO,SALARIO,OBSERVACAO)
+VALUES
+(1004,'Gustavo Pedrosa Neto','Assis. Financeiro II','M','44 981044582','Travessa São Boaventura, 56 - Londrina','Bigorrilho',
+ '19/01/1988','22/07/2022',4050.00,'Colaborador formado na área e com muita experiência para agregar.');
+ 
+INSERT INTO COLABORADORES
+(ID_COLABORADOR,NOME,CARGO,SEXO,TELEFONE,ENDERECO,BAIRRO,DT_NASCIMENTO,DT_ADMISSAO,SALARIO,OBSERVACAO)
+VALUES
+(1005,'Rosa Lourenço Barros','Vendedora','F','44 996045571','Alameda Gomes da Rocha, 347 - Londrina','Charitas',
+ '30/07/1999','01/08/2022',1990.00,'Colaboradora prestativa e atenta aos clientes.');
 ```
 
 **Tabela Setores**:
@@ -485,16 +497,6 @@ INSERT INTO SETORES
 (ID_SETOR, NOME, QTD_COLABORADORES,ID_SETOR_COLAB)
 VALUES
 (105,'Vendas','3',1005);
-
-INSERT INTO SETORES
-(ID_SETOR, NOME, QTD_COLABORADORES,ID_SETOR_COLAB)
-VALUES
-(106,'Vendas','3',1006);
-
-INSERT INTO SETORES
-(ID_SETOR, NOME, QTD_COLABORADORES,ID_SETOR_COLAB)
-VALUES
-(107,'Vendas','3',1007);
 ```
 
 **Tabela Clientes**:
@@ -525,7 +527,42 @@ VALUES
  '05/07/1984','leandro.net1000@gmail.com');
 ```
 
-**_Atualizado em 26/08/2022_**
+**Tabela Editoras**:
+
+```
+INSERT INTO EDITORAS
+(ID_EDITORA,RAZAO_SOCIAL,NOME_FANTASIA,CNPJ,IE,ENDERECO,BAIRRO,CIDADE,EMAIL,DADOS_BANCARIOS,ID_EDITORA_LIVRO)
+VALUES
+(301,'EDITORA ROCCO LTDA','Editora Rocco','42.444.703/0004-00','115215009113','Alameda Santos, 1165 - Sala 11',
+ 'Cerqueira Cesar','São Paulo','rocco@gmail.com','AG: 3459-0 C/C: 42372-1 - Banco Bradesco',1000001);
+ 
+INSERT INTO EDITORAS
+(ID_EDITORA,RAZAO_SOCIAL,NOME_FANTASIA,CNPJ,IE,ENDERECO,BAIRRO,CIDADE,EMAIL,DADOS_BANCARIOS,ID_EDITORA_LIVRO)
+VALUES
+(302,'EDITORA ROCCO LTDA','Editora Rocco','42.444.703/0004-00','115215009113','Alameda Santos, 1165 - Sala 11',
+ 'Cerqueira Cesar','São Paulo','rocco@gmail.com','AG: 3459-0 C/C: 42372-1 - Banco Bradesco',1000002);
+ 
+INSERT INTO EDITORAS
+(ID_EDITORA,RAZAO_SOCIAL,NOME_FANTASIA,CNPJ,IE,ENDERECO,BAIRRO,CIDADE,EMAIL,DADOS_BANCARIOS,ID_EDITORA_LIVRO)
+VALUES
+(303,'EDITORA ROCCO LTDA','Editora Rocco','42.444.703/0004-00','115215009113','Alameda Santos, 1165 - Sala 11',
+ 'Cerqueira Cesar','São Paulo','rocco@gmail.com','AG: 3459-0 C/C: 42372-1 - Banco Bradesco',1000003);
+ 
+INSERT INTO EDITORAS
+(ID_EDITORA,RAZAO_SOCIAL,NOME_FANTASIA,CNPJ,IE,ENDERECO,BAIRRO,CIDADE,EMAIL,DADOS_BANCARIOS,ID_EDITORA_LIVRO)
+VALUES
+(304,'EDITORA ROCCO LTDA','Editora Rocco','42.444.703/0004-00','115215009113','Alameda Santos, 1165 - Sala 11',
+ 'Cerqueira Cesar','São Paulo','rocco@gmail.com','AG: 3459-0 C/C: 42372-1 - Banco Bradesco',1000004);
+ 
+INSERT INTO EDITORAS
+(ID_EDITORA,RAZAO_SOCIAL,NOME_FANTASIA,CNPJ,IE,ENDERECO,BAIRRO,CIDADE,EMAIL,DADOS_BANCARIOS,ID_EDITORA_LIVRO)
+VALUES
+(305,'EDITORA ROCCO LTDA','Editora Rocco','42.444.703/0004-00','115215009113','Alameda Santos, 1165 - Sala 11',
+ 'Cerqueira Cesar','São Paulo','rocco@gmail.com','AG: 3459-0 C/C: 42372-1 - Banco Bradesco',1000005);
+```
+
+
+**_Atualizado em 30/08/2022_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
