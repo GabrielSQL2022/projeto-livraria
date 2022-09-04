@@ -678,8 +678,16 @@ VALUES
 (705,'03/08/2022',29.70,1,1000016,605,1007,204);
 ```
 
+- ### Criando Relatórios Gerenciais - Views;
 
-**_Atualizado em 02/09/2022_**
+Nesta etapa serão criadas views como forma de relatórios gerenciais, mostrando dados importantes para o negócio, como total de vendas diárias, total de vendas
+por colaborador, clientes aniversariantes do mês e outros.
+
+**Relatório Total de Vendas Diárias**:
+
+
+
+**_Atualizado em 04/09/2022_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
