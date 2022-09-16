@@ -841,6 +841,18 @@ pouco conhecimento e/ou sem privilégios para executar comandos DDL e DML.
 
 Neste projeto serão criados procedures simples de acordo com a regra de negócio e suas necessidades.
 
+**- Inserção de novos livros**:
+
+Antes de criar a procedure, criei uma sequence no campo ID_LIVRO para não haver a necessidade de entrar com este dado manualmente;
+
+```
+CREATE SEQUENCE ID_LIVRO
+INCREMENT BY 1
+START WITH 1000027
+MAXVALUE 1999999
+NOCYCLE
+```
+
 **_Atualizado em 16/09/2022_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
