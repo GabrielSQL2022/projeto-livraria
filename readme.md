@@ -834,7 +834,7 @@ SELECT * FROM ANIVERSARIANTES
 
 ![Aniversariante](https://i.ibb.co/XxWk4jV/Screenshot-6.jpg)
 
-- ### Criando Tarefas Performática - Procedures;
+- ### Criando Tarefas Performáticas - Procedures;
 
 As procedures são blocos de comandos SQL que armazena comandos repetitivos a partir de parâmetros de entrada, sendo aconselhável para usuários que possuam
 pouco conhecimento e/ou sem privilégios para executar comandos DDL e DML.
