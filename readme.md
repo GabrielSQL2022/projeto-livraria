@@ -906,7 +906,7 @@ Resultado:
 
 ![proc_insert_simples](https://i.ibb.co/TtbT1Dz/Proc-insert.jpg)
 
-**-- Alteração de Categoria, Quantidade e/ou Preço**:
+**- Alteração de Categoria, Quantidade e/ou Preço**:
 
 Optei por criar três procedures simples e distintas para a alteração da categoria, quantidade e preço dos livros, e em seguida incluí-las em um package.
 
