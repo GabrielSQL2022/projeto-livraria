@@ -1030,8 +1030,82 @@ Resultado:
 
 ![Pacote_atualizacao_livro](https://i.ibb.co/rbchQhM/Screenshot-1.jpg)
 
+- ### Criando LOG de alteração de preço dos livros - Trigger;
 
-**_Atualizado em 19/09/2022_**
+Para que haja um histórico com a alteração dos preços dos livros foi criado uma Trigger com a função de armazenar em uma nova tabela o nome, preço anterior, novo 
+preço e a data da alteração.
+
+Esta rotina foi criada em uma Trigger, pelo fato de ser um procedimento acionado automaticamente quando há algum evento predeterminado.
+Neste caso o evento é a alteração de preço dos livros, e a ação será armazenar o histórico em uma nova tabela.
+
+Primeiramente criei a tabela para armazenar o histórico:
+
+```
+CREATE TABLE LOG_LIVROS
+(
+ ID_LOG NUMBER PRIMARY KEY,
+ DATA_ALTERACAO DATE DEFAULT SYSDATE,
+ LIVRO VARCHAR2 (100),
+ OLD_PRECO NUMBER (10,2),
+ NEW_PRECO NUMBER (10,2)
+)
+```
+
+Em seguida criei uma sequence para que o campo ID_LOG seja criado automaticamente e de forma sequencial:
+
+```
+CREATE SEQUENCE ID_LOG
+INCREMENT BY 1
+START WITH 1
+MAXVALUE 1999999
+NOCYCLE
+```
+
+Por fim foi criado a trigger da seguinte forma:
+
+```
+CREATE OR REPLACE TRIGGER TR_LOG_LIVROS
+AFTER UPDATE OF PRECO ON LIVROS 
+FOR EACH ROW
+BEGIN
+ INSERT INTO LOG_LIVROS
+   (ID_LOG, DATA_ALTERACAO, LIVRO, OLD_PRECO, NEW_PRECO)
+ VALUES
+   (ID_LOG.NEXTVAL, SYSDATE, :OLD.NOME, :OLD.PRECO, :NEW.PRECO);
+END;
+```
+
+Exemplo de execução:
+
+- Consultando o livro a ser atualizado;
+
+```
+SELECT 
+ID_LIVRO,
+NOME, 
+PRECO FROM LIVROS
+WHERE NOME = 'Harry Potter e a Pedra Filosofal'
+```
+
+![select](https://i.ibb.co/zn2RM4n/Screenshot-1.jpg)
+
+- Alterando o preço do livro;
+
+```
+UPDATE LIVROS
+SET PRECO = 20.90
+WHERE ID_LIVRO = 1000001
+```
+
+- Consultando o histórico de alteração na tabela LOG_LIVROS;
+
+```
+SELECT * FROM LOG_LIVROS
+```
+![log](https://i.ibb.co/1TjRXFW/Screenshot-2.jpg)
+
+
+**_Atualizado em 07/10/2022_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
