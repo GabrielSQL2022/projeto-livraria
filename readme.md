@@ -1104,8 +1104,38 @@ SELECT * FROM LOG_LIVROS
 ```
 ![log](https://i.ibb.co/1TjRXFW/Screenshot-2.jpg)
 
+- ### Dashboard de Vendas;
 
-**_Atualizado em 07/10/2022_**
+Para finalizar e analisar de forma mais clara as vendas realizadas nos primeiros dias da livraria, criei o dashboard abaixo no Power BI:
+
+![power_bi](https://i.ibb.co/gPPKzkG/Power-Bi.jpg)
+
+Pelo banco de dados ser em Oracle realizei a conexão do banco com o Power BI pelo ODBC e integrei o resultado desta view:
+
+```
+CREATE VIEW POWER_BI AS
+SELECT 
+C.NOME AS CLIENTE,
+V.DT_VENDA AS DATA_VENDA,
+V.VALOR_TOTAL AS VALOR_TOTAL_VENDA,
+V.QTD_LIVRO AS QTD_LIVRO_VENDIDO,
+L.NOME AS LIVRO,
+L.EDITORA AS EDITORA,
+L.AUTOR AS AUTOR,
+L.CATEGORIA AS CATEGORIA,
+L.PRECO AS PRECO_LIVRO,
+B.NOME AS COLABORADOR,
+B.CARGO AS CARGO
+FROM LIVROS L
+JOIN VENDAS V
+ON L.ID_LIVRO = V.ID_VENDA_LIVRO
+JOIN CLIENTES C
+ON V.ID_VENDA_CLIENTE = C.ID_CLIENTE
+JOIN COLABORADORES B
+ON V.ID_VENDA_COLABORADOR = B.ID_COLABORADOR
+```
+
+**_Concluído em 12/01/2023_**
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
