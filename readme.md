@@ -3,8 +3,7 @@
 Este projeto tem a finalidade de demonstrar o processo de criação de um banco de dados, iniciando pela Análise de Requisitos e passando
 pela criação dos Modelos Conceitual, Lógico e Físico.
 
-Os assuntos abordados neste projeto serão sobre uma livraria que vende apenas livros físicos, mas pelo fato de ser um projeto contínuo e pensado
-no mundo real, naturalmente a livraria passará por mudanças e melhorias, como qualquer empresa.
+Os assuntos abordados neste projeto serão sobre uma livraria que vende apenas livros físicos.
 
 <hr size="100"> <!-- LINHA HORIZONTAL -->
 
